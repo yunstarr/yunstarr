@@ -1,0 +1,195 @@
+/* 定义自定义鼠标指针样式 */
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: var(--anzhiyu-fontcolor);
+    border-radius: 25px;
+    opacity: .3;
+    z-index: 10086;
+    pointer-events: none;
+    transition: .2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+/* 当鼠标指针不活动时的样式 */
+#cursor.hidden {
+    opacity: 0;
+}
+
+/* 当鼠标指针活动时的样式 */
+#cursor.active {
+    opacity: .5;
+    transform: scale(.5);
+}
+
+@media (max-width: 768px) {
+    #cursor {
+        display: none;
+    }
+}
+
+::selection {
+    color: inherit!important;
+}
+
+/* 设置全局鼠标样式 */
+html,#bber>section>ul>li>div .bber-info-from, #bber>section>ul>li>div .bber-info-time,#aside-content .card-widget .card-info-social-icons{
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/alternate.png) 16 16, auto!important;
+}
+
+a,img, button, input,.title,.nav-button,i.bber-logo,.topGroup .recent-post-item,.category-bar-next,.article-categories-original,#recent-posts .recent-post-item,#recent-posts>.recent-post-item>.recent-post-info,#aside-content .card-widget#card-wechat,.pagination span,.card-author,.card-title,.modal-article-date,summary,#article-container .highlight-tools .copy-button,.el-input__inner,.tk-avatar-img,.tk-comments-title span,.tk-expand,.bber-reply,.reward-button,.share-link .share-button,.comment-barrage-item .barrageContent,.code-expand-btn,.topGroup .banner-button,#aside-content .card-info #author-info__sayhi,.tk-submit-action-icon,.OwO .OwO-body .OwO-bar .OwO-packages li,.OwO .OwO-body .OwO-items .OwO-item,#twikoo .tk-comments .OwO .OwO-body,a span {
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/link.png) 16 16, pointer!important;
+}
+
+p, span, h2, label,#toPageText,.local-search-box--input,time,textarea {
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/text.png) 16 16, text!important;
+}
+
+#aside-content .card-info:hover .author-info-avatar {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    filter: alpha(opacity = 1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.author-info__description {
+    display: none;
+}
+.card-widget.card-info {
+    background: url(https://cdn.bsgun.cn/Hexo-static/img/avatar.256.avif) center/cover no-repeat!important;
+}
+
+#aside-content >.card-widget.card-info::before {
+    background-image: linear-gradient(-25deg, hsl(204deg 100% 50% / 45%), hsl(36.71deg 100% 50% / 45%), hsl(204deg 100% 50% / 45%), hsl(36.71deg 100% 50% / 45%));
+    backdrop-filter: blur(5px);
+}
+
+#aside-content .card-info:hover .author-status {
+    opacity: 1!important;
+    transform: scale(1.8) rotate(30deg);
+}
+
+#article-container .anzhiyu-flink-list .flink-list-item:hover {
+    background: var(--anzhiyu-card-bg)!important;
+    border: var(--style-border)!important;
+    box-shadow: var(--anzhiyu-shadow-border)!important;
+}
+
+#article-container .anzhiyu-flink-list .flink-list-item:hover a .flink-item-desc,
+#article-container .anzhiyu-flink-list .flink-list-item:hover a .flink-item-name {
+    color: var(--anzhiyu-fontcolor)!important;
+}
+
+/* 隐藏点赞 */
+/* 引用链接隐藏外部提升 */
+.tk-action .tk-action-link:first-child,
+.tag-link-tips {
+    display: none!important;
+}
+
+/* 手机端搜索栏样式 */
+@media screen and (max-width: 768px), (max-height: 580px) {
+    .search-dialog {
+        top: 2rem!important;
+        left: 5%!important;
+        width: 90%!important;
+        height: auto!important;
+        border-radius: 10px!important;
+    }
+}
+#random-post {
+    padding: 15px!important;
+    min-height: 64px!important;
+}
+
+/* 首页文章的标签位置 */
+#recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap {
+    bottom: 15px!important;
+}
+
+/* 优化关于界面人生图片 */
+img.author-content-img.no-lightbox.entered.loaded {
+    filter: blur(0) brightness(.8);
+}
+
+/* 滚动条优化 */
+#catalog-list,
+anzhiyu.barrageContent {
+    scrollbar-width: none;
+}
+
+/* 优化文章顶部分类和标签显示异常 */
+#post-firstinfo .meta-firstline span.post-meta-categories a.post-meta-categories {
+    background: rgb(107 107 107 / 50%)!important;
+}
+
+#post #post-info #post-firstinfo .meta-firstline .article-meta__tags {
+    color: #888!important;
+}
+/* 链接卡片*/
+#article-container .tag-Link .tag-link-bottom {
+    margin-top: 0!important;
+}
+
+/* 代码块的边框显示优化 */
+#article-container figure.highlight {
+    border: var(--style-border);
+}
+
+/* 手机端nav栏 */
+#sidebar #sidebar-menus {
+    padding-top: 10px!important;
+}
+
+@media screen and (max-width: 768px) {
+    #page .fcircle_page .author-content-item .card-content .banner-button-group .banner-button {
+        display: none;
+    }
+    .post .layout#content-inner {
+        background: transparent;
+    }
+}
+
+/* Twikoo*/
+/* 评论框背景图优化 */
+.twikoo .el-input__inner,
+.twikoo .el-textarea__inner {
+    transition: background-position-y 0.3s ease-in-out 0s !important;
+}
+
+.twikoo .el-input__inner:focus,
+.twikoo .el-textarea__inner:focus {
+    background-position-y: 350px;
+}
+
+.tk-input .el-textarea__inner {
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain
+}
+
+/* 评论回复 */
+.tk-action-link {
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: var(--style-border);
+}
+
+.tk-action-link:hover {
+    background: var(--anzhiyu-theme);
+    color: #fff;
+}
+
+/* 评论后台优化 */
+#body-wrap.page .el-input__inner {
+    background: #ffffff0f;
+}
+
+[data-theme=dark] details > summary {
+    background: none!important;
+}
