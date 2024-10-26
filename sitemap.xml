@@ -2,18 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yunstarr.github.io/posts/d87f7e0c/</loc>
+    <loc>https://yunstarr.github.io/music/index.html</loc>
     
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://yunstarr.github.io/posts/15edad24/</loc>
+    <loc>https://yunstarr.github.io/json/music.json</loc>
     
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9ae68f81/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9ae28f81/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9ae68f8a/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9ae68f8s/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9ae68a89/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9qe48f89/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/posts/9qe68f89/</loc>
+    
+    <lastmod>2024-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,25 +85,7 @@
   <url>
     <loc>https://yunstarr.github.io/posts/d50a/</loc>
     
-    <lastmod>2024-10-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yunstarr.github.io/posts/d50a/</loc>
-    
-    <lastmod>2024-10-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yunstarr.github.io/posts/33483/</loc>
-    
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,22 +202,36 @@
 
   <url>
     <loc>https://yunstarr.github.io/</loc>
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://yunstarr.github.io/tags/GoogleVoice/</loc>
+    <lastmod>2024-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunstarr.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://yunstarr.github.io/tags/Tag-Plugins/</loc>
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://yunstarr.github.io/tags/Hexo/</loc>
-    <lastmod>2024-10-25</lastmod>
+    <lastmod>2024-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -180,8 +239,8 @@
 
   
   <url>
-    <loc>https://yunstarr.github.io/categories/%E9%9A%8F%E6%83%B3/</loc>
-    <lastmod>2024-10-25</lastmod>
+    <loc>https://yunstarr.github.io/categories/GoogleVoice/</loc>
+    <lastmod>2024-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
